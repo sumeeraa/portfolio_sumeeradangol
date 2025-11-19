@@ -1,0 +1,83 @@
+/* General Page Design */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #ffe6f2; /* Light soft pink */
+}
+
+/* Header */
+header {
+    background: #ffb3d9; /* Medium pink */
+    text-align: center;
+    padding: 30px;
+    color: #4a0033;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    background: #ff66b3; /* Hot pink */
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 30px;
+}
+img {
+    width: 200px;   /* Set width */
+    height: auto;   /* Keeps image proportion */
+}
+
+
+#projects {
+    background: #ffd6eb; /* Very soft light pink */
+}
+
+/* Contact Form */
+form {
+    max-width: 400px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 10px;
+    border: 1px solid #ff80bf; /* Pink border */
+    border-radius: 4px;
+}
+
+button {
+    padding: 12px 20px;
+    background: #ff3385; /* Darker hot pink */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #e60073; /* Deep pink */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #ffb3d9;
+    padding: 20px;
+    margin-top: 20px;
+    color: #4a0033;
+}
